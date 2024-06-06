@@ -1,0 +1,55 @@
+
+Loading MNIST Data...
+
+Loading Training Data...
+
+Loading Testing Data...
+
+Calculating Accuracy of trained Classifier...
+
+Making Predictions on Validation Data...
+
+Calculating Accuracy of Predictions...
+
+Creating Confusion Matrix...
+
+KNN Trained Classifier Confidence:  0.8631666666666666
+
+Predicted Values:  [2 1 4 ... 6 6 9]
+
+Accuracy of Classifier on Validation Image Data:  0.8631666666666666
+
+Confusion Matrix: 
+ [[509   0  12  12   0   0  62   0   5   0]
+ [  1 605   0  10   0   0   2   0   0   0]
+ [  8   1 490   4  48   0  50   0   1   1]
+ [ 32   5   1 581  24   0  15   0   0   0]
+ [  1   0  67  16 454   0  48   0   1   0]
+ [  0   0   0   0   0 514   2  47   2  42]
+ [107   0  72   8  36   0 382   0   4   0]
+ [  0   0   0   0   0   2   0 519   0  23]
+ [  0   0   8   2   4   1   6   2 553   2]
+ [  0   0   0   0   0   3   1  20   0 572]]
+
+Making Predictions on Test Input Images...
+
+Calculating Accuracy of Trained Classifier on Test Data... 
+
+ Creating Confusion Matrix for Test Data...
+
+Predicted Labels for Test Images:  [0 1 2 ... 8 8 2]
+
+Accuracy of Classifier on Test Images:  0.86
+
+Confusion Matrix for Test Data: 
+ [[860   1  15  12   4   0  99   2   7   0]
+ [  1 967   7  15   1   0   9   0   0   0]
+ [ 17   0 797  14  89   0  82   0   1   0]
+ [ 28  12  11 885  31   0  32   0   1   0]
+ [  4   0  80  21 806   0  87   0   2   0]
+ [  0   0   1   1   0 804   8 107   6  73]
+ [191   1 104  15  68   0 608   0  13   0]
+ [  0   0   0   0   0   1   0 945   0  54]
+ [  2   1  12   2   5   0  12   4 960   2]
+ [  0   0   0   0   0   1   0  31   0 968]]
+Total Time Taken: 778789.8724079132 ms

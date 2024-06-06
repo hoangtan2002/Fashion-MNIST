@@ -1,0 +1,3 @@
+*.pickle
+*.png
+Fashion_MNIST_Loader/__pycache__/*
